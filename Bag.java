@@ -1,4 +1,3 @@
-package bag;
 
 import java.util.Scanner;
 

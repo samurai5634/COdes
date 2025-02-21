@@ -1,11 +1,11 @@
-package bag;
+
 import java.util.*;
 public class Bagop {
 
 	public static void main(String[] args) {
 		     String c;	
 		    double w;
-			int choice,ch;int n=0;
+			int choice,ch;int n;
 			int rec=0;
 			
 			
@@ -71,6 +71,7 @@ public class Bagop {
 					a[i].display();
 					break;
 				case 3:
+					n=Bag.total_objects;
 					System.out.println("Enter Record you want to delete: ");
 					rec=sc.nextInt();
 					a[n].delete(rec,a);
@@ -93,5 +94,6 @@ public class Bagop {
 
 
 	}
+
 
 
